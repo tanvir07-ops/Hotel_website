@@ -1,0 +1,217 @@
+/* Css Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/* main styling -- mane holo kono class id chara jemon html,body,p,a etc eisob er jonne styling */
+
+body{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height:1.7em;
+
+
+}
+
+a{
+   text-decoration:none;
+   color:#333;
+
+
+
+}
+h1,h2,h3{
+
+    padding-bottom: 20px;
+}
+
+p{
+  margin:10px 0;
+
+}
+
+
+.container{
+
+  margin:auto;
+  padding:0 20px;
+  max-width:1100px;
+  overflow: auto;
+ 
+   
+ 
+ 
+
+}
+
+
+/* navbar */
+
+#navbar{
+
+    background-color:#333;
+    color:white;
+    overflow:auto;
+    position:fixed;
+    width:100%;
+    
+    
+}
+
+#navbar .navbar-logo{
+
+  float:left;
+  padding-top:20px;
+
+}
+
+#navbar a{
+
+
+    color:white;
+  
+
+}
+
+#navbar ul{
+
+    float:right;
+    list-style-type: none;
+  
+}
+
+
+
+#navbar ul li{
+
+   float:left;
+
+   /* list gula jate vartially ase sei jonne float left hoise */
+  
+
+}
+
+#navbar ul li a{
+
+    text-align: center;
+    padding:20px;
+    display:block;
+ 
+   
+}
+
+#navbar ul li a:hover,
+#navbar ul li .current
+{
+     background-color:#444;
+     color:#f7c08a;
+
+
+}
+
+
+
+/* showcase */
+
+#showcase{
+  background:url(../img/hotel1.jpg) no-repeat center center/cover;
+  height:600px;
+}
+
+#showcase .showcase-content{
+
+  color:white;
+  text-align: center;
+  padding-top:170px;
+}
+
+.text-primary{
+  color:#f7c08a;
+}
+
+#showcase .showcase-content h1{
+ 
+  line-height:1.2em;
+  font-size:60px;
+}
+
+#showcase .showcase-content .lead{
+
+   font-size:20px;
+   padding-bottom:20px;
+   line-height:1.7em;
+}
+
+.btn{
+
+   background-color: #444;
+   color:white;
+   padding:13px 20px;
+   display:inline-block;
+
+   /* display inline-block dile likha ta majkhane asbe tai inline block diyechi ar block dile full(container class er jayga obdi) show korbe */
+   border:none;
+   cursor:pointer;
+   font-size:18px
+
+}
+
+
+.btn:hover{
+   
+  background-color: #f7c08a;
+  color:#333;
+  
+
+}
+
+
+/* home-section */
+
+.btn-white{
+
+   background-color:#f4f4f4;
+   color:#333;
+   
+
+}
+
+#home-info{
+
+  height:400px;
+}
+
+#home-info .info-img{
+  background:url('../img/photo-1.jpg') no-repeat;
+  float:left;
+  width:50%;
+  min-height:100%;
+ 
+}
+
+
+#home-info .info-content{
+
+      float:right;
+      width:50%;
+      height:100%;
+      text-align:center;
+      padding:50px 30px;
+      overflow:hidden;
+     
+
+}
+
+#home-info .info-content a{
+   margin-top:30px;
+}
+
+.bg-dark{
+  background-color: #333;
+  color:white;
+
+}
+
