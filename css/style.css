@@ -215,3 +215,43 @@ p{
 
 }
 
+
+/* featured(mane amra ki ki subida diccih) section */
+
+.box{
+  
+   display:inline-block;
+   width:33%;
+   padding:50px;
+   text-align:center;
+
+}
+
+.box i{
+   margin-bottom:10px;
+}
+
+.bg-light{
+
+
+  background-color:#f4f4f4;
+  color:#333;
+}
+
+.bg-primary{
+  background-color:#f7c08a;
+  color:#333;
+
+}
+
+
+/* footer */
+
+#main-footer{
+  text-align:center;
+  background:#444;
+  padding:20px;
+  color:white;
+
+}
+
