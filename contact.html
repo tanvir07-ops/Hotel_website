@@ -22,6 +22,8 @@
                    <li><a  href="index.html">Home</a></li>
                    <li><a href = "about.html">About</a></li>
                    <li><a class = "current"  href = "contact.html">Contact</a></li>
+                   <button onclick="myFunction()"><i class="fas fa-sun fa-2x"></i></button>
+    
     
                 </ul>
 
@@ -133,4 +135,13 @@
     </footer>
     
 </body>
+
+
+
+<script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
 </html>

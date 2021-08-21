@@ -79,3 +79,18 @@
 
   border-bottom: 1px solid #444;
 }
+
+
+
+/* using dark mode */
+
+#navbar ul button{
+ 
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
+  display:block !important;
+  width:92.5%;
+
+  
+}
+
